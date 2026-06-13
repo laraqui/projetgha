@@ -1,7 +1,7 @@
 # Nom du workflow 
 name: Hello World
 # l’evenement déclencheur 
-on: [pull]
+on: [pull_request]
 # Définition des tâches (jobs) à exécuter
 jobs:
   say_hello: # nom du job
